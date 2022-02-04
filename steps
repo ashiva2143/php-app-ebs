@@ -1,0 +1,7 @@
+git log --oneline(to view differnet versions of app)
+git checkout commitid (to go to that version) or git checkout master to come back to lastest version
+git archive --format=zip HEAD>aws-helloworld.zip(zip the contents where head pointing to aws-hellloworld(name).zip)
+aws s3 cp s3://bucketname(copy to s3 bucket ) and download to your local sysytem
+create ebs in aws  with php platform
+it will create instance autoscaling grp,sg lb,cloud watch etc
+select upload and deploy and select .zip file and give environment variables in code with values in ebs
